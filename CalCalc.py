@@ -3,7 +3,7 @@ import sys
 
 def calorieCalculator(gender, weight, height, age, activity, goal):
 	#Constant dictionary for transforming BMR into daily calories
-	activityArray = [1.2,1,375,1.55,1.725,1.9]
+	activityArray = [1.2,1.375,1.55,1.725,1.9]
 	goalArray = [-500,0,500]
 
 	#Calculate the BMR
